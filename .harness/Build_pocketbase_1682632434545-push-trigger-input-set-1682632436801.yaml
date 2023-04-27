@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pocketbase_1682632434545-push-trigger-input-set
+  identifier: Build_pocketbase_1682632434545pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pocketbase_1682632434545
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
