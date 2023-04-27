@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Generate_my_Pipeline_configuration_1682577137003-pr-trigger-input-set
+  identifier: Build_Generate_my_Pipeline_configuration_1682577137003prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_Generate_my_Pipeline_configuration_1682577137003
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
