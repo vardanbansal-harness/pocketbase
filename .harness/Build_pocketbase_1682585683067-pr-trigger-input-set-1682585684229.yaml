@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pocketbase_1682585683067-pr-trigger-input-set
+  identifier: Build_pocketbase_1682585683067prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_pocketbase_1682585683067
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
