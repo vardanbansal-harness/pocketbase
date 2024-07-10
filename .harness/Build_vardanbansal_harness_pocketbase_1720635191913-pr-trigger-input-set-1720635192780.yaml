@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vardanbansal_harness_pocketbase_1720635191913-pr-trigger-input-set
+  identifier: Build_vardanbansal_harness_pocketbase_1720635191913prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_vardanbansal_harness_pocketbase_1720635191913
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
